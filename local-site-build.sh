@@ -88,10 +88,10 @@ build_landing(){
    #for linux
    LC_ALL=C find ../dist/ -type f | xargs sed -i  "s/_latest_version_/$CURRENT_VERSION/g"
 
-   git checkout gh-pages
-   rm -rf ./*
-   cp -R ../dist/* .
-   git add -A
+   #git checkout gh-pages
+   #rm -rf ./*
+   #cp -R ../dist/* .
+   #git add -A
 
 
      
